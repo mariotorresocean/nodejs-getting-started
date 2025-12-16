@@ -20,7 +20,7 @@ pipeline {
                     sh 'docker rm -f minha-app-rodando || true'
                     
                     // 2. Sobe a nova versão na porta 5000
-                    sh 'docker run -d -p 5000:5000 --name minha-app-rodando minha-app-node'
+                    sh 'docker run -d -p 5000:5006 --name minha-app-rodando minha-app-node'
                 }
             }
         }
