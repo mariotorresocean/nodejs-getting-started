@@ -10,11 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Baixar o codigo
+      - name: Baixar o codigo
        uses: actions/checkout@v4
        
       - name: Construir a imagem
         run: docker build -t appnodejsheroku:gha .
       
-      -name: Mensagem
+      - name: Mensagem
        run: echo "A imagem foi construída com sucesso usando servidores do GitHub"
