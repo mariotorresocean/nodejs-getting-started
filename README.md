@@ -1,5 +1,7 @@
 # nodejs-getting-started
 
+[![Docker Build CI](https://github.com/mariotorresocean/nodejs-getting-started/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/mariotorresocean/nodejs-getting-started/actions/workflows/docker-ci.yml)
+
 A barebones Node.js app using [Express](https://expressjs.com/).
 
 This application supports the tutorials for both the [Cedar and Fir generations](https://devcenter.heroku.com/articles/generations) of the Heroku platform. You can check them out here:
